@@ -1,41 +1,33 @@
 {
-  "name": "yandex-music-api-wrapper",
-  "description": "Lightweight wrapper on the yandex music api",
-  "author": "titsex",
-  "version": "0.0.1",
-  "license": "MIT",
-  "homepage": "https://github.com/titsex/riot-games-api-wrapper#readme",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": "./dist/index.js",
-  "keywords": [
-    "yandex",
-    "music",
-    "api",
-    "lightweight",
-    "wrapper"
-  ],
-  "files": [
-    "dist"
-  ],
-  "directories": {
-    "lib": "src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/titsex/yandex-music-api-wrapper.git"
-  },
-  "bugs": {
-    "url": "https://github.com/titsex/yandex-music-api-wrapper/issues"
-  },
-  "scripts": {
-    "build": "tsup",
-    "build:check": "tsc"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.6.4",
-    "@types/node": "^20.12.7",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5"
-  }
+	"name": "yandex-music-api-wrapper",
+	"description": "Lightweight wrapper on the yandex music api",
+	"author": "titsex",
+	"version": "0.0.2",
+	"license": "MIT",
+	"homepage": "https://github.com/titsex/riot-games-api-wrapper#readme",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": "./dist/index.js",
+	"keywords": ["yandex", "music", "api", "lightweight", "wrapper"],
+	"files": ["dist"],
+	"directories": {
+		"lib": "src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/titsex/yandex-music-api-wrapper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/titsex/yandex-music-api-wrapper/issues"
+	},
+	"scripts": {
+		"build": "tsup",
+		"build:check": "tsc"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.6.4",
+		"@types/node": "^20.12.7",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5"
+	}
 }
