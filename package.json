@@ -1,0 +1,27 @@
+{
+  "name": "yandex-music-api-wrapper",
+  "description": "Lightweight wrapper on the yandex music api",
+  "author": "titsex",
+  "version": "0.0.0-beta",
+  "license": "MIT",
+  "homepage": "https://github.com/titsex/riot-games-api-wrapper#readme",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "keywords": ["yandex", "music", "api", "lightweight", "wrapper"],
+  "files": ["dist"],
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titsex/yandex-music-api-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titsex/yandex-music-api-wrapper/issues"
+  },
+  "scripts": {
+    "build": "tsup",
+    "build:check": "tsc"
+  }
+}
